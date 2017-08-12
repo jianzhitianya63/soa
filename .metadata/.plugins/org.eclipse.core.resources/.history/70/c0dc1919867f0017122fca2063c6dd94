@@ -1,0 +1,5 @@
+package cn.soa.serializable;
+
+public class HessianSerializable {
+
+}

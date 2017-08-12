@@ -4,4 +4,13 @@
   <artifactId>soa-parent</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
+  
+  <dependencies>
+	 	 <dependency>
+	    <groupId>com.caucho</groupId>
+	    <artifactId>hessian</artifactId>
+	    <version>4.0.7</version>
+		</dependency>
+  </dependencies>
+  
 </project>
