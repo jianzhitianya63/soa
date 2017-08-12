@@ -1,0 +1,314 @@
+!SESSION 2017-08-13 00:47:25.693 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.7.0_72
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.fx.core 4 0 2017-08-13 00:49:07.329
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.fx.core [959]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.annotation; bundle-version="[2.0.0,3.0.0)"; resolution:="optional"
+    -> Bundle-SymbolicName: org.eclipse.jdt.annotation; bundle-version="2.0.100.v20150311-1658"
+       org.eclipse.jdt.annotation [368]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.fx.osgi.util 4 0 2017-08-13 00:49:07.360
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.fx.osgi.util [961]
+  Unresolved requirement: Require-Bundle: org.eclipse.fx.core; bundle-version="0.9.0"
+    -> Bundle-SymbolicName: org.eclipse.fx.core; bundle-version="2.1.0.201508240602"
+       org.eclipse.fx.core [959]
+         Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.annotation; bundle-version="[2.0.0,3.0.0)"; resolution:="optional"
+           -> Bundle-SymbolicName: org.eclipse.jdt.annotation; bundle-version="2.0.100.v20150311-1658"
+              org.eclipse.jdt.annotation [368]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.springsource.ide.eclipse.commons.browser 4 0 2017-08-13 00:49:07.360
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.springsource.ide.eclipse.commons.browser [1087]
+  Unresolved requirement: Require-Bundle: org.eclipse.fx.osgi.util; bundle-version="0.9.0"
+    -> Bundle-SymbolicName: org.eclipse.fx.osgi.util; bundle-version="2.1.0.201508240602"
+       org.eclipse.fx.osgi.util [961]
+         Unresolved requirement: Require-Bundle: org.eclipse.fx.core; bundle-version="0.9.0"
+           -> Bundle-SymbolicName: org.eclipse.fx.core; bundle-version="2.1.0.201508240602"
+              org.eclipse.fx.core [959]
+                Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.annotation; bundle-version="[2.0.0,3.0.0)"; resolution:="optional"
+                  -> Bundle-SymbolicName: org.eclipse.jdt.annotation; bundle-version="2.0.100.v20150311-1658"
+                     org.eclipse.jdt.annotation [368]
+                       Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.springsource.ide.eclipse.commons.gettingstarted 4 0 2017-08-13 00:49:07.360
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.springsource.ide.eclipse.commons.gettingstarted [1095]
+  Unresolved requirement: Require-Bundle: org.springsource.ide.eclipse.commons.browser
+    -> Bundle-SymbolicName: org.springsource.ide.eclipse.commons.browser; bundle-version="3.7.3.201602250752-RELEASE"; singleton:="true"
+       org.springsource.ide.eclipse.commons.browser [1087]
+         Unresolved requirement: Require-Bundle: org.eclipse.fx.osgi.util; bundle-version="0.9.0"
+           -> Bundle-SymbolicName: org.eclipse.fx.osgi.util; bundle-version="2.1.0.201508240602"
+              org.eclipse.fx.osgi.util [961]
+                Unresolved requirement: Require-Bundle: org.eclipse.fx.core; bundle-version="0.9.0"
+                  -> Bundle-SymbolicName: org.eclipse.fx.core; bundle-version="2.1.0.201508240602"
+                     org.eclipse.fx.core [959]
+                       Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.annotation; bundle-version="[2.0.0,3.0.0)"; resolution:="optional"
+                         -> Bundle-SymbolicName: org.eclipse.jdt.annotation; bundle-version="2.0.100.v20150311-1658"
+                            org.eclipse.jdt.annotation [368]
+                              Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-08-13 00:51:27.968
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2017-08-13 00:54:05.834
+!MESSAGE Could not auto-share project soa-parent
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: 提供的 SVN 信息与磁盘上“soa-parent”项目的信息不相匹配。
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2017-08-13 00:54:05.835
+!MESSAGE 提供的 SVN 信息与磁盘上“soa-parent”项目的信息不相匹配。
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-08-13 00:54:06.940
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-08-13 00:54:06.947
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2017-08-13 00:54:39.908
+!MESSAGE Could not auto-share project soa-common
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: 提供的 SVN 信息与磁盘上“soa-common”项目的信息不相匹配。
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2017-08-13 00:54:39.908
+!MESSAGE 提供的 SVN 信息与磁盘上“soa-common”项目的信息不相匹配。
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-08-13 00:54:40.100
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-08-13 00:54:40.104
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-08-13 00:55:59.257
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-08-13 00:55:59.261
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-08-13 00:57:58.590
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-08-13 00:57:58.593
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2017-08-13 00:58:52.313
+!MESSAGE Could not auto-share project soa-parent
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: 提供的 SVN 信息与磁盘上“soa-parent”项目的信息不相匹配。
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2017-08-13 00:58:52.313
+!MESSAGE 提供的 SVN 信息与磁盘上“soa-parent”项目的信息不相匹配。
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2017-08-13 00:59:20.712
+!MESSAGE Could not auto-share project soa-common
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: 提供的 SVN 信息与磁盘上“soa-common”项目的信息不相匹配。
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2017-08-13 00:59:20.712
+!MESSAGE 提供的 SVN 信息与磁盘上“soa-common”项目的信息不相匹配。
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-08-13 00:59:20.912
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-08-13 00:59:20.916
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 10 2017-08-13 00:59:33.710
+!MESSAGE Updating the index from remote failed. ; version: 1.100.0.v20160303-1450
+!STACK 0
+java.io.EOFException: Unexpected end of ZLIB input stream
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:240)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	at java.util.zip.ZipInputStream.read(ZipInputStream.java:193)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at com.google.common.io.ByteStreams.copy(ByteStreams.java:169)
+	at com.google.common.io.ByteSink.writeFrom(ByteSink.java:134)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.Zips.unzip(Zips.java:82)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerProblemsHistory$UpdateIndexJob.run(ServerProblemsHistory.java:293)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2017-08-13 00:59:53.901
+!MESSAGE Could not auto-share project soa-demo
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: 提供的 SVN 信息与磁盘上“soa-demo”项目的信息不相匹配。
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2017-08-13 00:59:53.901
+!MESSAGE 提供的 SVN 信息与磁盘上“soa-demo”项目的信息不相匹配。
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-08-13 01:00:39.460
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-08-13 01:00:39.465
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2017-08-13 01:00:40.760
+!MESSAGE Could not auto-share project soa-parent
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: 提供的 SVN 信息与磁盘上“soa-parent”项目的信息不相匹配。
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2017-08-13 01:00:40.760
+!MESSAGE 提供的 SVN 信息与磁盘上“soa-parent”项目的信息不相匹配。
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2017-08-13 01:00:51.550
+!MESSAGE Could not auto-share project soa-demo
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: 提供的 SVN 信息与磁盘上“soa-demo”项目的信息不相匹配。
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2017-08-13 01:00:51.550
+!MESSAGE 提供的 SVN 信息与磁盘上“soa-demo”项目的信息不相匹配。
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-08-13 01:01:03.752
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-08-13 01:01:03.754
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2017-08-13 01:03:05.919
+!MESSAGE Could not auto-share project soa-parent
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: 提供的 SVN 信息与磁盘上“soa-parent”项目的信息不相匹配。
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2017-08-13 01:03:05.919
+!MESSAGE 提供的 SVN 信息与磁盘上“soa-parent”项目的信息不相匹配。
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2017-08-13 01:03:25.074
+!MESSAGE Could not auto-share project soa-common
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: 提供的 SVN 信息与磁盘上“soa-common”项目的信息不相匹配。
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2017-08-13 01:03:25.074
+!MESSAGE 提供的 SVN 信息与磁盘上“soa-common”项目的信息不相匹配。
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-08-13 01:03:25.277
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-08-13 01:03:25.282
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2017-08-13 01:03:54.843
+!MESSAGE Could not auto-share project soa-demo
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: 提供的 SVN 信息与磁盘上“soa-demo”项目的信息不相匹配。
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2017-08-13 01:03:54.843
+!MESSAGE 提供的 SVN 信息与磁盘上“soa-demo”项目的信息不相匹配。
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2017-08-13 01:04:41.000
+!MESSAGE Could not auto-share project soa-manager-demo
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: 提供的 SVN 信息与磁盘上“soa-manager-demo”项目的信息不相匹配。
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2017-08-13 01:04:41.000
+!MESSAGE 提供的 SVN 信息与磁盘上“soa-manager-demo”项目的信息不相匹配。
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2017-08-13 01:05:53.631
+!MESSAGE Could not auto-share project demo-rpc
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: 提供的 SVN 信息与磁盘上“demo-rpc”项目的信息不相匹配。
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2017-08-13 01:05:53.631
+!MESSAGE 提供的 SVN 信息与磁盘上“demo-rpc”项目的信息不相匹配。
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-08-13 01:05:53.945
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-08-13 01:05:53.948
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-08-13 01:05:55.303
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-08-13 01:05:55.306
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!

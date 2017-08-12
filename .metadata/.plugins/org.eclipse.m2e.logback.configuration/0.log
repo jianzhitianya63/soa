@@ -1,0 +1,96 @@
+2017-08-13 00:54:02,428 [Worker-19] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.soa:soa-parent:0.0.1-SNAPSHOT @ E:\MyCodes\soa\soa-parent\pom.xml.
+2017-08-13 00:54:04,726 [Worker-19] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /soa-parent/src/main/java
+2017-08-13 00:54:04,729 [Worker-19] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /soa-parent/src/main/resources
+2017-08-13 00:54:04,731 [Worker-19] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /soa-parent/src/test/java
+2017-08-13 00:54:04,731 [Worker-19] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /soa-parent/src/test/resources
+2017-08-13 00:54:06,938 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-13 00:54:06,943 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-13 00:54:06,947 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-13 00:54:06,948 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-13 00:54:39,705 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.soa:soa-common:0.0.1-SNAPSHOT @ E:\MyCodes\soa\soa-common\pom.xml.
+2017-08-13 00:54:39,752 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /soa-common/src/main/java
+2017-08-13 00:54:39,753 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /soa-common/src/main/resources
+2017-08-13 00:54:39,753 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /soa-common/src/test/java
+2017-08-13 00:54:39,753 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /soa-common/src/test/resources
+2017-08-13 00:54:40,098 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-13 00:54:40,101 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-13 00:54:40,103 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-13 00:54:40,105 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-13 00:55:10,460 [Worker-6] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\MyCodes\soa\soa-parent
+2017-08-13 00:55:10,461 [Worker-6] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s E:\Software_Install_Files\apache-maven-3.3.9-bin\apache-maven-3.3.9\conf\settings.xml install
+2017-08-13 00:55:47,220 [Worker-2] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\MyCodes\soa\soa-common
+2017-08-13 00:55:47,221 [Worker-2] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s E:\Software_Install_Files\apache-maven-3.3.9-bin\apache-maven-3.3.9\conf\settings.xml install
+2017-08-13 00:55:58,724 [Worker-15] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-08-13 00:55:58,847 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.soa:soa-common:0.0.1-SNAPSHOT @ E:\MyCodes\soa\soa-common\pom.xml.
+2017-08-13 00:55:58,929 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /soa-common/src/main/java
+2017-08-13 00:55:58,930 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /soa-common/src/main/resources
+2017-08-13 00:55:58,930 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /soa-common/src/test/java
+2017-08-13 00:55:58,930 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /soa-common/src/test/resources
+2017-08-13 00:55:59,072 [Worker-15] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-08-13 00:55:59,257 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-13 00:55:59,258 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-13 00:55:59,260 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-13 00:55:59,262 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-13 00:56:47,029 [Worker-0] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updated local repository index
+2017-08-13 00:57:55,253 [Worker-12] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\MyCodes\soa\soa-parent
+2017-08-13 00:57:55,253 [Worker-12] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s E:\Software_Install_Files\apache-maven-3.3.9-bin\apache-maven-3.3.9\conf\settings.xml install
+2017-08-13 00:57:58,590 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-13 00:57:58,592 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-13 00:57:58,593 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-13 00:57:58,593 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-13 00:58:52,260 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: cn.soa:soa-parent:0.0.1-SNAPSHOT @ E:\MyCodes\soa\soa-parent\pom.xml.
+2017-08-13 00:59:20,208 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.soa:soa-common:0.0.1-SNAPSHOT @ E:\MyCodes\soa\soa-common\pom.xml.
+2017-08-13 00:59:20,648 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /soa-common/src/main/java
+2017-08-13 00:59:20,648 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /soa-common/src/main/resources
+2017-08-13 00:59:20,648 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /soa-common/src/test/java
+2017-08-13 00:59:20,648 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /soa-common/src/test/resources
+2017-08-13 00:59:20,911 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-13 00:59:20,913 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-13 00:59:20,916 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-13 00:59:20,917 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-13 00:59:53,778 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: cn.soa:soa-demo:0.0.1-SNAPSHOT @ E:\MyCodes\soa\soa-demo\pom.xml.
+2017-08-13 01:00:38,334 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.soa:soa-common:0.0.1-SNAPSHOT @ E:\MyCodes\soa\soa-common\pom.xml.
+2017-08-13 01:00:39,460 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-13 01:00:39,462 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-13 01:00:39,464 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-13 01:00:39,465 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-13 01:01:03,098 [Worker-2] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-08-13 01:01:03,458 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.soa:soa-common:0.0.1-SNAPSHOT @ E:\MyCodes\soa\soa-common\pom.xml.
+2017-08-13 01:01:03,576 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /soa-common/src/main/java
+2017-08-13 01:01:03,576 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /soa-common/src/main/resources
+2017-08-13 01:01:03,576 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /soa-common/src/test/java
+2017-08-13 01:01:03,576 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /soa-common/src/test/resources
+2017-08-13 01:01:03,624 [Worker-2] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-08-13 01:01:03,751 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-13 01:01:03,752 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-13 01:01:03,754 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-13 01:01:03,754 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-13 01:01:24,533 [Worker-0] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\MyCodes\soa\soa-parent
+2017-08-13 01:01:24,534 [Worker-0] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s E:\Software_Install_Files\apache-maven-3.3.9-bin\apache-maven-3.3.9\conf\settings.xml install
+2017-08-13 01:03:05,849 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: cn.soa:soa-parent:0.0.1-SNAPSHOT @ E:\MyCodes\soa\soa-parent\pom.xml.
+2017-08-13 01:03:24,615 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.soa:soa-common:0.0.1-SNAPSHOT @ E:\MyCodes\soa\soa-common\pom.xml.
+2017-08-13 01:03:25,012 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /soa-common/src/main/java
+2017-08-13 01:03:25,012 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /soa-common/src/main/resources
+2017-08-13 01:03:25,013 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /soa-common/src/test/java
+2017-08-13 01:03:25,013 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /soa-common/src/test/resources
+2017-08-13 01:03:25,276 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-13 01:03:25,278 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-13 01:03:25,282 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-13 01:03:25,283 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-13 01:03:54,796 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: cn.soa:soa-demo:0.0.1-SNAPSHOT @ E:\MyCodes\soa\soa-demo\pom.xml.
+2017-08-13 01:04:40,916 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: cn.soa:soa-manager-demo:0.0.1-SNAPSHOT @ E:\MyCodes\soa\soa-manager-demo\pom.xml.
+2017-08-13 01:05:53,464 [Worker-19] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.soa:demo-rpc:0.0.1-SNAPSHOT @ E:\MyCodes\soa\soa-manager-demo\demo-rpc\pom.xml.
+2017-08-13 01:05:53,539 [Worker-19] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo-rpc/src/main/java
+2017-08-13 01:05:53,540 [Worker-19] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo-rpc/src/main/resources
+2017-08-13 01:05:53,540 [Worker-19] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo-rpc/src/test/java
+2017-08-13 01:05:53,541 [Worker-19] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo-rpc/src/test/resources
+2017-08-13 01:05:53,944 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-13 01:05:53,946 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-13 01:05:53,948 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-13 01:05:53,949 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-13 01:05:54,037 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: cn.soa:soa-manager-demo:0.0.1-SNAPSHOT @ E:\MyCodes\soa\soa-manager-demo\pom.xml.
+2017-08-13 01:05:54,116 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.soa:demo-rpc:0.0.1-SNAPSHOT @ E:\MyCodes\soa\soa-manager-demo\demo-rpc\pom.xml.
+2017-08-13 01:05:55,302 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-13 01:05:55,305 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-13 01:05:55,306 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-13 01:05:55,307 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
